@@ -13,6 +13,8 @@ public class Calculator {
             minMax(numbers);
         }catch (InputMismatchException e){
             System.out.println("Blednie wprowadzona liczba");
+        }catch (IndexOutOfBoundsException e){
+            System.out.println("Brak liczb do uruchomienia programu");
         }
     }
 
