@@ -21,7 +21,7 @@ public class Calculator {
     private static List<Integer> getNumbers(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj liczby");
-        LinkedList<Integer> numbers = new LinkedList<>();
+        List<Integer> numbers = new LinkedList<>();
         int newNumber = scanner.nextInt();
         while (newNumber>=0){
             numbers.add(newNumber);
